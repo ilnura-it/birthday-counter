@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Birthday Count</title>
+   <link rel="icon" href="data:,">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Handlee&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <div class="heading">
+      <h1>HOW MUCH TIME UNTIL YOUR BIRTHDAY?</h1>
+   </div>
+
+<div class="containerInput">
+   <div class="inputFieldsection">
+     
+     <form action="">
+       <label>Your birthday date:</label> 
+      <input id="dayField" class="inputField" type="date" placeholder="year-month-date 12:00AM" value="2021-08-01T00:00"> 
+     
+
+     </form>
+   </div>
+
+   <div class="calculate">
+      <button id="calculBtn">CALCULATE</button>
+   </div>
+
+</div>
+   
+
+
+   <div class="timerSection">
+      <div class="birthcalculator">
+         <div class="block">
+            <h3 class="daysCalculator"></h3>
+            <h3>DAYS</h3>
+         </div>
+      </div>
+
+      <div class="birthcalculator">
+         <div class="block">
+            <h3 class="hoursCalculator"></h3>
+            <h3>HOURS</h3>
+         </div>
+      </div>
+
+      <div class="birthcalculator">
+         <div class="block">
+            <h3 class="minutesCalculator"></h3>
+            <h3>MINUTES</h3>
+         </div>
+      </div>
+
+      <div class="birthcalculator">
+         <div class="block">
+            <h3 class="secondsCalculator"></h3>
+            <h3>SECONDS</h3>
+         </div>
+      </div>
+   </div>
+   
+<audio id="myaudio" src="https://cdn.glitch.com/57f337d6-44ab-4c02-a283-54f0d8bb39f8%2FKiai%20%E2%80%94%20Happy%20Birthday.mp3?v=1628033953763" loop="loop" autoplay="allowed"></audio>
+<button id="myButton"><img src="https://img.icons8.com/ios/50/000000/pause--v2.png"/></button>
+
+   <script src="script.js"></script>
+</body>
+</html>
